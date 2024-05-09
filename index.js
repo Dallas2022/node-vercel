@@ -49,6 +49,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/1', (req, res) => {
+    console.log("TESTE");
     res.end("<h1>ROTA 1</h1>")
 })
 
